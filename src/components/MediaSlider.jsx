@@ -19,6 +19,7 @@ import video1 from "../assets/videos_and_audios/asd.mp4";
 import video2 from "../assets/videos_and_audios/asdasd.mp4";
 import audio1 from "../assets/videos_and_audios/asdasdasd.ogg";
 import video3 from "../assets/videos_and_audios/video.mp4";
+import video4 from "../assets/videos_and_audios/asdasdasd.mp4";
 import audio2 from "../assets/videos_and_audios/zxczxc.ogg";
 
 const mediaItems = [
@@ -63,6 +64,15 @@ const mediaItems = [
     type: "video",
     title: "Финальный штрих",
     url: video3,
+    thumbnail:
+      "https://images.unsplash.com/photo-1516280440614-37939bbacd81?q=80&w=1000&auto=format&fit=crop",
+    icon: <Film size={20} />,
+  },
+  {
+    id: 5,
+    type: "video",
+    title: "Финальный штрих",
+    url: video4,
     thumbnail:
       "https://images.unsplash.com/photo-1516280440614-37939bbacd81?q=80&w=1000&auto=format&fit=crop",
     icon: <Film size={20} />,
